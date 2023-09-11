@@ -1,3 +1,7 @@
-export function helloShared(input: string): string {
-  return `hello, ${input} from helloShared`;
+export function helloShared({ name }: Shared): string {
+  return `hello, ${name} from helloShared`;
+}
+
+export interface Shared {
+  name: string;
 }
