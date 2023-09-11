@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "build-api",
+    "allowJs": true,
+    "sourceMap": true
+  },
+  "include": ["src/api", "src/shared"],
+  "exclude": ["src/ui"]
+}

@@ -4,10 +4,10 @@ used svelte create and modded
 
 ## TODO
 
-- [ ] setup express server
-- [ ] create API endpoints in express
+- [x] setup express server
+- [x] create API endpoints in express
 - [ ] make shared, ui, api, folders
-- [ ] add plugin to vite for express
-- [ ] use svelte handler in express prod
-- [ ] setup vscode settings for project
+- [x] add plugin to vite for express
+- [x] use svelte handler in express prod
+- [x] setup vscode settings for project
 - [ ] make this a scaffolding package?
